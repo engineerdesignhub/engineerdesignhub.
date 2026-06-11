@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1983793556229388" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BeamMaster AI | Get in Touch</title>
+    <meta name="description" content="Contact the BeamMaster AI team for questions about structural engineering tools, collaboration opportunities, bug reports, or feedback.">
+    <meta name="author" content="Er. P. Durga Prasad">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://beammasterai.com/contact.html">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">B</span>
+                <span>BeamMaster <span style="color: var(--primary);">AI</span></span>
+            </a>
+            <ul class="nav-links" id="menu-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="articles/" class="nav-link">Articles</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-icon" id="theme-toggle" title="Toggle Theme" aria-label="Toggle Theme">
+                    <svg id="theme-sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                    <svg id="theme-moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+                <a href="index.html" class="btn btn-primary">Start Analysis</a>
+            </div>
+            <div class="burger" id="burger-menu"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="separator">›</span>
+                <span class="current">Contact Us</span>
+            </nav>
+        </div>
+
+        <div class="container static-page-layout" style="max-width: 1000px;">
+            <div class="section-header">
+                <h1>Get in Touch</h1>
+                <p>Have questions about structural formulas, want to report a bug, request a feature, or explore collaboration opportunities? We would love to hear from you.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-method-icon">✉️</div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p><a href="mailto:support@beammasterai.com">support@beammasterai.com</a></p>
+                            <p style="margin:0;"><a href="mailto:academic@beammasterai.com">academic@beammasterai.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Hyderabad, Telangana<br>India</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">⏰</div>
+                        <div>
+                            <h4>Response Time</h4>
+                            <p>We typically respond within 24–48 hours on business days.</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem; padding: 1.5rem; background-color: var(--bg-tertiary); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                        <h4 style="margin-bottom: 0.5rem;">Quick Links</h4>
+                        <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem;">
+                            <li><a href="about.html">Learn more about us →</a></li>
+                            <li><a href="articles/">Browse engineering articles →</a></li>
+                            <li><a href="index.html">Try the beam calculator →</a></li>
+                            <li><a href="privacy.html">Read our privacy policy →</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <form id="contact-form" onsubmit="handleContactSubmit(event)">
+                        <div class="form-group">
+                            <label for="contact-name">Full Name</label>
+                            <input type="text" id="contact-name" class="input-control" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email" id="contact-email" class="input-control" placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <select id="contact-subject" class="input-control" required>
+                                <option value="">Select a topic...</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="feature">Feature Request</option>
+                                <option value="academic">Academic Collaboration</option>
+                                <option value="advertising">Advertising / Partnerships</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Your Message</label>
+                            <textarea id="contact-message" class="input-control" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width:100%;" id="contact-submit-btn">Send Message</button>
+                        <div id="contact-success" style="display:none; margin-top: 1rem; padding: 1rem; background-color: var(--accent-light); color: var(--accent); border-radius: var(--radius-sm); text-align: center; font-weight: 600;">
+                            ✅ Thank you! Your message has been received. We will get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-logo-desc">
+                <a href="index.html" class="logo"><span class="logo-icon">B</span><span>BeamMaster <span style="color: var(--primary);">AI</span></span></a>
+                <p>Advanced online structural analysis and beam simulation tool built with high mathematical precision and modern design.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" class="footer-link">Home</a></li>
+                    <li><a href="articles/" class="footer-link">Articles</a></li>
+                    <li><a href="about.html" class="footer-link">About Us</a></li>
+                    <li><a href="contact.html" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="footer-link">Terms & Conditions</a></li>
+                    <li><a href="disclaimer.html" class="footer-link">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:support@beammasterai.com" class="footer-link">support@beammasterai.com</a></li>
+                    <li><span class="footer-link">Hyderabad, India</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <div>&copy; 2026 BeamMaster AI. All rights reserved. Created by Er. P. Durga Prasad.</div>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank" rel="noopener">Github</a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const sunIcon = document.getElementById('theme-sun-icon');
+        const moonIcon = document.getElementById('theme-moon-icon');
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('bm-theme', theme);
+            sunIcon.style.display = theme === 'dark' ? 'none' : 'block';
+            moonIcon.style.display = theme === 'dark' ? 'block' : 'none';
+        }
+        themeToggle.addEventListener('click', () => {
+            const current = document.documentElement.getAttribute('data-theme');
+            setTheme(current === 'dark' ? 'light' : 'dark');
+        });
+        setTheme(localStorage.getItem('bm-theme') || 'dark');
+
+        const burger = document.getElementById('burger-menu');
+        const navLinks = document.getElementById('menu-links');
+        burger.addEventListener('click', () => navLinks.classList.toggle('active'));
+
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            document.getElementById('contact-submit-btn').textContent = 'Sending...';
+            setTimeout(() => {
+                document.getElementById('contact-form').style.display = 'none';
+                document.getElementById('contact-success').style.display = 'block';
+            }, 800);
+        }
+    </script>
+</body>
+</html>
